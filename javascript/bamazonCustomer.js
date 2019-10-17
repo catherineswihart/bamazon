@@ -4,7 +4,7 @@ var chalk = require('chalk');
 var Table = require('cli-table');
 
 var connection = mysql.createConnection({
-    host: '',
+    host: 'localhost',
     user: 'catherine',
     password: 'catherine',
     database: 'bamazon'
